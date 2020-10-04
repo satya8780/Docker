@@ -1,0 +1,6 @@
+docker login
+username : xyz
+passwd : xyz
+docker push docker-nginx-lua:latest 
+# add below line in ~/.bashrc file $ alias ffmpeg='docker run -v=`pwd`:/tmp/workdir jrottenberg/ffmpeg' $ source ~/.bashrc #To reload .bashrc
+# Verify installation $ ffmpeg -buildconf
